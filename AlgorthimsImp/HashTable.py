@@ -1,4 +1,4 @@
-class HashTable:
+class Hashtable:
     def __init__(self):
         self.MAX = 10
         self.arr = [[] for i in range(self.MAX)]
@@ -34,7 +34,7 @@ class HashTable:
 
 
 if __name__ == "__main__":
-    t = HashTable()
+    t = Hashtable()
     t["march 6"] = 310  # with hash 9
     # t["march 7"] = 420
     # t["march 8"] = 67
